@@ -1,0 +1,112 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #ffffff;
+    --foreground: #111827;
+
+    --primary: #111827;
+    --primary-foreground: #f9fafb;
+    --primary-brand: #00a1ff;
+    --primary-brand-weak: #f0f8fc;
+
+    --secondary: #f3f4f6;
+    --secondary-foreground: #111827;
+
+    --muted: #f3f4f6;
+    --muted-foreground: #6b7280;
+
+    --accent: #f3f4f6;
+    --accent-foreground: #111827;
+
+    --destructive: #dc2626;
+    --destructive-foreground: #fef2f2;
+
+    --border: #e5e7eb;
+    --input: #e5e7eb;
+    --ring: #111827;
+    --ring-offset: #ffffff;
+
+    --card: #ffffff;
+    --card-foreground: #111827;
+
+    --popover: #ffffff;
+    --popover-foreground: #030712;
+
+    --sidebar-background: #ffffff;
+    --sidebar-foreground: #374151;
+    --sidebar-primary: #111827;
+    --sidebar-primary-foreground: #f9fafb;
+    --sidebar-accent: #f3f4f6;
+    --sidebar-accent-foreground: #111827;
+    --sidebar-border: #e5e7eb;
+    --sidebar-ring: #9ca3af;
+
+    --chart-1: #2a9d90;
+    --chart-2: #e76e50;
+    --chart-3: #274754;
+    --chart-4: #e8c468;
+    --chart-5: #f4a462;
+  }
+
+  .dark {
+    --background: #111827;
+    --foreground: #f9fafb;
+
+    --primary: #f9fafb;
+    --primary-foreground: #111827;
+    --primary-brand: #00a1ff;
+    --primary-brand-weak: #f0f8fc;
+
+    --secondary: #1f2937;
+    --secondary-foreground: #f9fafb;
+
+    --muted: #1f2937;
+    --muted-foreground: #9ca3af;
+
+    --accent: #1f2937;
+    --accent-foreground: #f9fafb;
+
+    --destructive: #dc2626;
+    --destructive-foreground: #fef2f2;
+
+    --border: #1f2937;
+    --input: #1f2937;
+    --ring: #d1d5db;
+    --ring-offset: #ffffff;
+
+    --card: #111827;
+    --card-foreground: #f9fafb;
+
+    --popover: #111827;
+    --popover-foreground: #f9fafb;
+
+    --sidebar-background: #111827;
+    --sidebar-foreground: #f3f4f6;
+    --sidebar-primary: #1d4ed8;
+    --sidebar-primary-foreground: #f9fafb;
+    --sidebar-accent: #1f2937;
+    --sidebar-accent-foreground: #f3f4f6;
+    --sidebar-border: #1f2937;
+    --sidebar-ring: #d1d5db;
+
+    --chart-1: #2662d9;
+    --chart-2: #e23670;
+    --chart-3: #e88c30;
+    --chart-4: #af57db;
+    --chart-5: #2eb88a;
+  }
+
+  * {
+    @apply border-border;
+    font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
