@@ -1,0 +1,12 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "o2o-globals",
+  "type": "registry:ui",
+  "files": [
+    {
+      "path": "app/globals.css",
+      "content": "@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css');\n\n@tailwind base;\n@tailwind components;\n@tailwind utilities;\n\n@layer base {\n  :root {\n    --background: #ffffff;\n    --foreground: #111827;\n    --primary: #111827;\n    --primary-foreground: #f9fafb;\n    --primary-brand: #00a1ff;\n    --primary-brand-weak: #f0f8fc;\n    --secondary: #f3f4f6;\n    --secondary-foreground: #111827;\n    --muted: #f3f4f6;\n    --muted-foreground: #6b7280;\n    --accent: #f3f4f6;\n    --accent-foreground: #111827;\n    --destructive: #dc2626;\n    --destructive-foreground: #fef2f2;\n    --border: #e5e7eb;\n    --input: #e5e7eb;\n    --ring: #111827;\n    --ring-offset: #ffffff;\n    --card: #ffffff;\n    --card-foreground: #111827;\n    --popover: #ffffff;\n    --popover-foreground: #030712;\n    --sidebar-background: #ffffff;\n    --sidebar-foreground: #374151;\n    --sidebar-primary: #111827;\n    --sidebar-primary-foreground: #f9fafb;\n    --sidebar-accent: #f3f4f6;\n    --sidebar-accent-foreground: #111827;\n    --sidebar-border: #e5e7eb;\n    --sidebar-ring: #9ca3af;\n  }\n\n  .dark {\n    --background: #111827;\n    --foreground: #f9fafb;\n    --primary: #f9fafb;\n    --primary-foreground: #111827;\n    --primary-brand: #00a1ff;\n    --primary-brand-weak: #f0f8fc;\n    --secondary: #1f2937;\n    --secondary-foreground: #f9fafb;\n    --muted: #1f2937;\n    --muted-foreground: #9ca3af;\n    --accent: #1f2937;\n    --accent-foreground: #f9fafb;\n    --destructive: #dc2626;\n    --destructive-foreground: #fef2f2;\n    --border: #1f2937;\n    --input: #1f2937;\n    --ring: #d1d5db;\n    --ring-offset: #ffffff;\n    --card: #111827;\n    --card-foreground: #f9fafb;\n    --popover: #111827;\n    --popover-foreground: #f9fafb;\n  }\n\n  * {\n    @apply border-border;\n    font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, sans-serif;\n  }\n\n  body {\n    @apply bg-background text-foreground;\n  }\n}",
+      "type": "registry:file"
+    }
+  ]
+}
